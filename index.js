@@ -21,6 +21,7 @@ app.use(
   )
 );
 app.use(cors());
+app.use(express.static("dist"));
 
 let persons = [
   {

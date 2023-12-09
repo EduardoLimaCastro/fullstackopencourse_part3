@@ -8,6 +8,10 @@ primary_region = "gig"
 
 [build]
 
+[env]
+  PORT = "3000" # add this
+
+
 [http_service]
   internal_port = 3000
   force_https = true
