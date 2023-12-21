@@ -1,1 +1,1 @@
-https://fullstackopencourse-part3.fly.dev/
+https://fullstack-part3-kxj5.onrender.com/
