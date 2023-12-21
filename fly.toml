@@ -1,16 +1,15 @@
-# fly.toml app configuration file generated for fullstackopencourse-part3 on 2023-12-09T14:28:54-03:00
+# fly.toml app configuration file generated for fullstackopencourse-part3-fragrant-hill-7806 on 2023-12-21T12:22:15-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "fullstackopencourse-part3"
+app = "fullstackopencourse-part3-fragrant-hill-7806"
 primary_region = "gig"
 
 [build]
 
 [env]
-  PORT = "3000" # add this
-
+  PORT = "3000" 
 
 [http_service]
   internal_port = 3000
