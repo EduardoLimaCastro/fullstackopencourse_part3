@@ -6,11 +6,11 @@ if (process.argv.length < 3) {
   process.exit(1)
 }
 
-const password = process.env.PASSWORD
+
 
 mongoose.set('strictQuery', false)
 
-const url = `mongodb+srv://EduardoCastro1201:${password}@cluster0.l2grzkw.mongodb.net/personApp?retryWrites=true&w=majority`
+const url = process.env.MONGODB_URI
 
 console.log('connecting to :', url)
 
