@@ -1,16 +1,11 @@
 const mongoose = require('mongoose')
 require('dotenv').config()
 
-// if (process.argv.length < 3) {
-//   console.log('give password as argument')
-//   process.exit(1)
-// }
-
 mongoose.set('strictQuery', false)
 
 const url = process.env.MONGODB_URI
 
-console.log('connecting to :', url)
+console.log('connecting to', url)
 
 mongoose
   .connect(url)
